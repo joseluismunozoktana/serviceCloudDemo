@@ -1,0 +1,36 @@
+<template>
+    <div class="slds-grid slds-wrap slds-gutters bg-white slds-p-around_medium slds-m-around_medium slds-p-horizontal_large">
+        <div class="slds-col slds-size_1-of-3 slds-m-vertical_medium">
+            <c-cont-component header-title="First component">
+                <span slot="contentSlot">
+                    <button class="slds-button slds-button_neutral slds-m-top_x-small">Neutral Button</button>
+                </span>
+            </c-cont-component>
+        </div>
+        <div class="slds-col slds-size_1-of-3 slds-m-vertical_medium">
+            <c-cont-component header-title="Second component">
+                <span slot="contentSlot">
+                    <button class="slds-button slds-button_destructive slds-m-top_x-small">Destructive Button</button>
+                </span>
+                <span slot="secondSlot">
+                    <button class="slds-button slds-button_neutral slds-m-top_x-small">This is the content of the second slot</button>
+                </span>
+            </c-cont-component>
+        </div>
+        <div class="slds-col slds-size_1-of-3 slds-m-vertical_medium">
+            <c-cont-component header-title="Third component">
+                <span slot="contentSlot">
+                    <button class="slds-button slds-button_success slds-m-top_x-small">Success Button</button>
+                </span>
+            </c-cont-component>
+        </div>
+        <div class="slds-col slds-size_1-of-3 slds-m-vertical_medium">
+            <c-cont-component header-title="Fourth component">
+                <span slot="contentSlot">
+                    <button class="slds-button slds-button_brand slds-m-top_x-small">Brand Button</button>
+                </span>
+            </c-cont-component>
+        </div>
+    </div>
+    
+</template>
