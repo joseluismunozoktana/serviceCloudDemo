@@ -1,15 +1,16 @@
 <template>
-    <lightning-card title={headerTitle} icon-name="custom:custom13">
-        <div class="slds-m-around_medium">
-            <p>Interact with this word: {greeting}!</p>
-            <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+    <lightning-card title={headerTitle} icon-name={iconName}>
+        <div class="slds-m-around_medium slds-align_absolute-center">
             <slot name="contentSlot"></slot>
         </div>
-        <div class="slds-m-around_medium bg-white">
-            <h2>A div separating the 2 slots</h2>
+        <div class="slds-m-around_medium bg-black slds-align_absolute-center">
+            <div class="slds-media slds-media_center">
+                <div class="slds-media__figure slds-align_absolute-center">
+                    <slot name="thirdSlot"></slot>
+                </div>
+            </div>
         </div>
-        <div class="slds-m-around_medium bg-black">
-            <p>This is another section for the second slot</p>
+        <div class="slds-m-around_medium bg-white slds-align_absolute-center">
             <slot name="secondSlot"></slot>
         </div>
     </lightning-card>

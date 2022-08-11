@@ -1,0 +1,36 @@
+.bg-help-center{
+    background-color: #1f99e0;
+}
+.btn-help-center{
+    font-family: 'LL Brown Regular Web' !important;
+    text-align: center;
+    background-color: #1775ab !important;
+    border-radius: 8px;
+    color: #fff !important;
+    margin: 0.35em 0.25em 0.35em 0.25em !important;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    border-bottom: 0;
+    outline: 0;
+    text-transform: uppercase;
+    padding: 15px 15px 15px 15px;
+    font-size: .875rem !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.35px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.search-bar{
+    height: 80px;
+}
+.title{
+    color: white;
+    font-size: 3.750em;
+    line-height: 1.25;
+    font-weight: bold;
+    letter-spacing: -0.94px;
+    font-family: 'LL Brown Regular Web','Open Sans',sans-serif;
+}
