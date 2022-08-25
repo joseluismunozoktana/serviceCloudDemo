@@ -1,0 +1,14 @@
+.bg-dark{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+.img_type{
+    max-width: 200px;
+    max-height: 200px;
+}
+.bold{
+    font-weight: bold;
+}
