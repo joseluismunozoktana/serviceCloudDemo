@@ -1,7 +1,11 @@
 .bg-white {
     background-color: white;
 }
-
+.check{
+    max-width: 20px;
+    max-height: 20px;
+    margin: 15px;
+}
 .picture {
     max-width: 100%;
 }
