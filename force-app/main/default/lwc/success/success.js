@@ -1,9 +1,7 @@
 import { LightningElement } from 'lwc';
-import flooddetector from '@salesforce/resourceUrl/flooddetector';
-import greencheck from '@salesforce/resourceUrl/greencheck';
-
+import adtservice from '@salesforce/resourceUrl/adt';
 
 export default class Success extends LightningElement {
-    justdevice = flooddetector + '/flood-detector.png';
-    check = greencheck + '/greencheck.png';
+    justdevice = adtservice + '/flood-detector.png';
+    check = adtservice + '/greencheck.png';
 }

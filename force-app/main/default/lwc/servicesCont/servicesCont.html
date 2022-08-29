@@ -1,0 +1,100 @@
+<template>
+    <div class="bg-white slds-grid slds-wrap slds-grid slds-grid_align-center">
+        <div class="slds-col slds-size_1-of-1 slds-m-top_x-large">
+            <h1 class="slds-align_absolute-center title" style="text-align: center">Service Catalog</h1>
+            <h3 class="slds-align_absolute-center" style="text-align: center; margin-top: 20px">Personalized service
+                actions curated for you</h3>
+        </div>
+        <div class="slds-show_medium slds-col slds-size_2-of-12 slds-m-top_x-large">
+            <c-menu></c-menu>
+        </div>
+        <div class="slds-col slds-size_10-of-12">
+            <h1 class="slds-text-heading_medium slds-m-left_xx-large slds-p-top_x-large bold">Services for Simren</h1>
+            <div
+                class="slds-grid slds-wrap slds-gutters bg-white slds-p-around_medium slds-m-around_medium slds-p-horizontal_large">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                    <c-service-card>
+                        <span slot="imgSlot">
+                            <a href="https://serviceclouddemojmunoz-developer-edition.na213.force.com/extendwarranty"><img
+                                    src={img1} alt="" /></a>
+                        </span>
+                        <span slot="textSlot">
+                            <h3 class="slds-text-heading_medium bold slds-m-around_medium"><a style="color: black;"
+                                    href="https://serviceclouddemojmunoz-developer-edition.na213.force.com/extendwarranty">Extend
+                                    warranty on your devices</a></h3>
+                            <p class="slds-text-body_regular">How do home security systems and components work?</p>
+                            <h4 class="slds-m-around_medium bold"><a href="#">Learn More →</a></h4>
+                        </span>
+                    </c-service-card>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                    <c-service-card>
+                        <span slot="imgSlot">
+                            <img src={img2} alt="" />
+                        </span>
+                        <span slot="textSlot">
+                            <h3 class="slds-text-heading_medium bold slds-m-around_medium">Security camera guides</h3>
+                            <p class="slds-text-body_regular">Everything you need to know about choosing security
+                                cameras for
+                                your home.</p>
+                            <h4 class="slds-m-around_medium bold"><a href="#">Learn More →</a></h4>
+                        </span>
+                    </c-service-card>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                    <c-service-card>
+                        <span slot="imgSlot">
+                            <img src={img3} alt="" />
+                        </span>
+                        <span slot="textSlot">
+                            <h3 class="slds-text-heading_medium bold slds-m-around_medium">Smart home security</h3>
+                            <p class="slds-text-body_regular">Remotely manage your home automation system and products.
+                            </p>
+                            <h4 class="slds-m-around_medium bold"><a href="#">Learn More →</a></h4>
+                        </span>
+                    </c-service-card>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                    <c-service-card>
+                        <span slot="imgSlot">
+                            <img src={img4} alt="" />
+                        </span>
+                        <span slot="textSlot">
+                            <h3 class="slds-text-heading_medium bold slds-m-around_medium">Video doorbell camera guides
+                            </h3>
+                            <p class="slds-text-body_regular">Learn more about doorbell camera placement, wiring and
+                                more.</p>
+                            <h4 class="slds-m-around_medium bold"><a href="#">Learn More →</a></h4>
+                        </span>
+                    </c-service-card>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                    <c-service-card>
+                        <span slot="imgSlot">
+                            <img src={img5} alt="" />
+                        </span>
+                        <span slot="textSlot">
+                            <h3 class="slds-text-heading_medium bold slds-m-around_medium">DIY home security help</h3>
+                            <p class="slds-text-body_regular">Want to take home security into your own hands? We can
+                                help with
+                                that!</p>
+                            <h4 class="slds-m-around_medium bold"><a href="#">Learn More →</a></h4>
+                        </span>
+                    </c-service-card>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+                    <c-service-card>
+                        <span slot="imgSlot">
+                            <img src={img6} alt="" />
+                        </span>
+                        <span slot="textSlot">
+                            <h3 class="slds-text-heading_medium bold slds-m-around_medium">Personal safety tips</h3>
+                            <p class="slds-text-body_regular">Useful safety tips for all occasions and life-stages.</p>
+                            <h4 class="slds-m-around_medium bold"><a href="#">Learn More →</a></h4>
+                        </span>
+                    </c-service-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
