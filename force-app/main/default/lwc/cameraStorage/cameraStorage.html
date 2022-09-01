@@ -1,0 +1,61 @@
+<template>
+    <div class="slds-grid slds-wrap slds-grid_align-center bg-white">
+        <div class="slds-col slds-size_1-of-1 slds-m-around_medium slds-p-around_medium">
+            <h1 class="slds-align_absolute-center title" style="text-align: center">Upgrade Camera Storage</h1>
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-large-size_9-of-12">
+            <div class="card slds-m-around_large slds-p-around_medium">
+                <div class="slds-grid slds-grid_align-center slds-m-around_large slds-p-around_medium slds-wrap">
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+                        <div class="slds-p-around_small slds-show_medium">
+                            <img class="picture" src={cameraadt} alt="" />
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_7-of-12">
+                        <h3 class="first">HOME SECURITY CAMERAS</h3>
+                        <h1 class="maintitle">Nest Aware Plus Upgrade*</h1>
+                        <h2 class="second">All the features of Nest Aware Basic and more!</h2>
+                        <div class="slds-p-around_small slds-hide_medium">
+                            <img class="picture" src={cameraadt} alt="" />
+                        </div>
+                        <div class="brd-line slds-show_medium"></div>
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12 slds-p-vertical_medium">
+                                <h1 class="img-text">Instant notifications</h1>
+                                <p class="img-text-desc">If the sensor detects a leak, you can receive instant
+                                    notifications on your smart devices.</p>
+                            </div>
+                            <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12 slds-p-vertical_medium">
+                                <h1 class="img-text">Wireless flexibility</h1>
+                                <p class="img-text-desc">Sensor are battery powered to make installation easy in
+                                    hard-to-reach places.</p>
+                            </div>
+                            <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12 slds-p-vertical_medium">
+                                <h1 class="img-text">Numerous applications</h1>
+                                <p class="img-text-desc">Place flood sensors in the basement, by a dishwasher, clothes
+                                    washer or anywhere flooding could occur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="card slds-m-around_large slds-p-around_medium">
+                <h1 class="slds-m-top_x-large title" style="text-align:center">Upgrade now
+                </h1>
+                <div class="slds-p-around_x-large slds-grid slds-grid_align-center slds-m-around_medium">
+                    <div class="slds-col slds-size_10-of-12">
+                        <lightning-combobox name="progress" label="Warranty Length" value={value}
+                            placeholder="Select Warranty Length" options={options} onchange={handleChange}>
+                        </lightning-combobox>
+                        <div class="slds-grid slds-grid_align-center">
+                            <a href="https://df22-svc-2-demo.my.site.com/adtselfserviceportal/adt-warranty-extended"><button
+                                class="slds-button slds-button_brand slds-m-around_x-large slds-align_absolute-center">Submit</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
