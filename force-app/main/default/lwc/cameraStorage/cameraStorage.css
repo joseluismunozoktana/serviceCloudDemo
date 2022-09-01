@@ -1,65 +1,91 @@
-.bg-white{
+.bg-white {
     background-color: white;
 }
-.picture{
+
+.picture {
     max-width: 100%;
 }
-.bg-navbar{
+
+.bg-navbar {
     background-color: #f3f5f6;
 }
-.title{
+
+.title {
     color: black;
     font-size: 1.85rem;
     line-height: 1.25;
     font-weight: bold;
     letter-spacing: -0.94px;
-    font-family: 'LL Brown Regular Web','Open Sans',sans-serif;
+    font-family: 'LL Brown Regular Web', 'Open Sans', sans-serif;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: #f3f5f6;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  .first{
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.first {
     font-size: 12px;
     font-weight: bold;
     margin-bottom: 1em;
-  }
-  .maintitle{
+}
+
+.maintitle {
     font-size: 3em;
     line-height: 1.33;
     font-weight: bold;
     letter-spacing: -0.4px;
     margin-bottom: 30px;
-  }
-  .second{
+}
+
+.second {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: .5px;
+    margin-bottom: 30px;
+}
+
+.third {
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: .5px;
     margin-bottom: 35px;
-  }
-  .img-text{
+}
+
+.img-text {
     font-size: 1.250em;
     font-weight: bold;
     line-height: 1.4;
     letter-spacing: normal;
     margin-bottom: 10px;
-    font-family: 'LL Brown Regular Web','Open Sans',sans-serif;
-  }
-  .img-text-desc{
+    font-family: 'LL Brown Regular Web', 'Open Sans', sans-serif;
+}
+
+.img-text-desc {
     font-size: 1em;
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: .4px;
-    font-family: 'LL Brown Regular Web','Open Sans',sans-serif;
-  }
-  .brd-line{
+    font-family: 'LL Brown Regular Web', 'Open Sans', sans-serif;
+    list-style-type: disc;
+}
+
+.img-text-circle {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    font-family: 'LL Brown Regular Web', 'Open Sans', sans-serif;
+    list-style-type: circle;
+}
+
+.brd-line {
     border-top: solid 2px #0061AA;
     width: 100%;
     margin-bottom: 30px;
-  }
+}
