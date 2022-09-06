@@ -7,3 +7,13 @@
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+.textDiv{
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .textDiv{
+        height: 170px;
+    }
+}
