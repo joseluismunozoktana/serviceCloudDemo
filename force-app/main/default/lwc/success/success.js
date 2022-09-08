@@ -6,13 +6,7 @@ export default class Success extends LightningElement {
     close = adtservice + '/close.png';
     check = adtservice + '/greencheck.png';
 
-    handleClose(){
-        console.log("here");
-        const elements = document.getElementsByClassName("notification");
-        console.log("elements.length: " + elements.length);
-        for (var i=0; i<elements.length; i++) {
-            elements[i].style.display = "none";
-        }
-        console.log("hi");
+    handleClose() {
+        this.template.querySelector('.notification').style.display = "none";
     }
 }

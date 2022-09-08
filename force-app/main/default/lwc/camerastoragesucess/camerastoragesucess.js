@@ -5,4 +5,8 @@ export default class Camerastoragesucess extends LightningElement {
     check = adtservice + '/greencheck.png';
     close = adtservice + '/close.png';
     cameraadt = adtservice + '/cameraadt.png';
+
+    handleClose() {
+        this.template.querySelector('.notification').style.display = "none";
+    }
 }
