@@ -4,7 +4,8 @@
 .check{
     max-width: 20px;
     max-height: 20px;
-    margin: 10px;
+    margin: 5px;
+    margin-right: 10px;
 }
 .picture {
     max-width: 100%;
@@ -24,12 +25,16 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: #f3f5f6;
 }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .card2{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: white;
 }
@@ -51,9 +56,6 @@
     }
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
 
 .first {
     font-size: 12px;
@@ -62,7 +64,7 @@
 }
 
 .maintitle {
-    font-size: 3em;
+    font-size: 2.2em;
     line-height: 1.33;
     font-weight: bold;
     letter-spacing: -0.4px;
