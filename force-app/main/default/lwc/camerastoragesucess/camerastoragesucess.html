@@ -1,7 +1,7 @@
 <template>
     <div class="slds-grid slds-wrap slds-grid_align-center bg-white">
         <div class="slds-col slds-size_1-of-1 slds-m-around_medium">
-            <h1 class="slds-align_absolute-center title" style="text-align: center">Upgrade Camera Storage</h1>
+            <h1 class="slds-align_absolute-center title" style="text-align: center">{label.title}</h1>
         </div>
         <div class="slds-col slds-size_1-of-1">
             <div class="slds-notify_container notCont notification">
@@ -13,7 +13,7 @@
                         <img src={check} class="check" />
                     </span>
                     <div class="slds-notify__content">
-                        <h2 class="slds-text-heading_small" style="color: white; font-weight:bold">Your request was submitted</h2>
+                        <h2 class="slds-text-heading_small" style="color: white; font-weight:bold">{label.successnotif}</h2>
                     </div>
                     <div class="slds-notify__close">
                         <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close" onclick={handleClose}>
@@ -41,7 +41,7 @@
                         <div
                         class="card slds-grid_vertical-align-center slds-grid slds-p-around_medium slds-list_horizontal">
                         <img src={check} class="check" />
-                        <h1>Your storage has been succesfully upgraded for 2 years!</h1>
+                        <h1>{label.successtext}</h1>
                     </div>
                     </div>
                 </div>

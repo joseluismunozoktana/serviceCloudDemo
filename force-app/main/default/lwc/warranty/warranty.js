@@ -1,11 +1,20 @@
 import { LightningElement } from 'lwc';
 import flooddetector from '@salesforce/resourceUrl/adt';
+import title from '@salesforce/label/c.adt_extendwarranty_title';
+import reqtitle from '@salesforce/label/c.adt_extendwarranty_request_title';
+import reqdesc from '@salesforce/label/c.adt_extendwarranty_request_desc';
 export default class Warranty extends LightningElement {
 
     justdevice = flooddetector + '/flood-detector.png';
 
     value = '2years';
     secondvalue = 'full';
+
+    label = {
+        title,
+        reqtitle,
+        reqdesc
+    }
 
     get options() {
         return [
